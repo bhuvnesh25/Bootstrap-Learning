@@ -1,0 +1,38 @@
+<!doctype html> 
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body class="container">
+  <br><br>
+    <p>Hello!! friends, My Name is<a href="#" data-toggle="tooltip"  data-title="I Love Geetika" data-placement="bottom">Bhuvnesh kumar</a></p>
+  <br><br>	
+	<p>Hello!! friends, My Name is<a href="#" data-toggle="popover"  data-title="I Love English" data-placement="top">Geetika</a></p>
+  <br><br> 	
+	<p>Hello!! friends, My Name is<a href="#" data-toggle="popover"  data-title="I Love English" data-content="Because I love Bhuvnesh" data-placement="right">Geetika</a></p>
+	
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('[data-toggle="tooltip"]').tooltip(); 
+	});
+	</script>
+	<script>
+	$(document).ready(function(){
+		$('[data-toggle="popover"]').popover(); 
+	});
+	</script>
+  </body>
+</html>
